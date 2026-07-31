@@ -448,7 +448,7 @@ function submitLead(){
   if(!name || !email || !phone){ alert('Please add your name, email, and mobile so I can send the guide.'); return; }
   var btn = document.getElementById('submitBtn');
   btn.disabled = true; btn.innerHTML = 'Sending…';
-  fetch('__WEBHOOK_URL__', {
+  fetch('https://paymegpt.com/api/webhooks/flow/4638/0b78ca5d260d34e618415f48c778aea851431dcd471f40924cb01b1a5a297b84', {
     method:'POST',
     headers:{'Content-Type':'application/json'},
     body: JSON.stringify({
