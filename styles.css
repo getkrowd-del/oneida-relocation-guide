@@ -55,7 +55,7 @@ section{padding:76px 0}
 .icard .num{font-family:'Space Mono';font-size:13px;color:var(--brass);font-weight:700;letter-spacing:.1em}
 .icard h3{font-size:20px;margin:10px 0 7px}
 .icard p{font-size:15px;color:var(--slate);line-height:1.5}
-.figimg{width:100%;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px -24px rgba(0,0,0,.45);display:block}
+.figimg{width:100%;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px -24px rgba(0,0,0,.45);display:block;aspect-ratio:16/9}
 .figcap{margin-top:10px;font-family:'Fraunces',serif;font-style:italic;font-size:16px;color:var(--brass)}
 .ptable{width:100%;border-collapse:collapse;margin-top:8px;background:var(--paper);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
 .ptable th{font-family:'Space Grotesk';font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:var(--paper);text-align:left;padding:13px 18px;font-weight:600}
@@ -72,7 +72,7 @@ section{padding:76px 0}
 .about p{color:rgba(246,241,231,.9);font-size:17px;margin-top:14px}
 .portrait{width:200px;height:200px;border-radius:50%;border:3px solid var(--brass-lt);background:linear-gradient(150deg,#2c4f86,#1b3a6b);display:flex;align-items:center;justify-content:center;font-family:'Fraunces';font-size:64px;color:var(--brass-lt);font-weight:600;margin:0 auto}
 .about .sig{font-family:'Fraunces';font-style:italic;font-size:26px;color:var(--brass-lt);margin-top:18px}
-.about .homeimg{width:100%;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px -24px rgba(0,0,0,.5);display:block;margin-top:22px}
+.about .homeimg{width:100%;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px -24px rgba(0,0,0,.5);display:block;margin-top:22px;aspect-ratio:16/10}
 .about .homecap{font-family:'Fraunces';font-style:italic;font-size:15px;color:var(--brass-lt);margin-top:10px}
 @media(max-width:760px){.about .wrap{grid-template-columns:1fr;text-align:center}.portrait{margin-bottom:10px}}
 .finalcta{background:var(--paper-2);text-align:center}
